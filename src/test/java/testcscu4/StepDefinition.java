@@ -64,7 +64,7 @@ public class StepDefinition {
     public void test15(io.cucumber.datatable.DataTable dataTable) {
             System.out.println("test");
     }
-    @Given("Test ,.+-_~@?çé=àû*?!")
+    @Given("Test ,.+-_~@€çé=àû*?!")
     public void test16(io.cucumber.datatable.DataTable dataTable) {
             System.out.println("test");
     }
