@@ -3,6 +3,7 @@
     "line": 2,
     "elements": [
       {
+        "start_timestamp": "2023-02-09T15:24:03.113Z",
         "line": 4,
         "name": "KKL_test_datatbls",
         "description": "",
@@ -12,13 +13,13 @@
         "steps": [
           {
             "result": {
-              "duration": 1790700,
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 5,
             "name": "Test \\\"",
             "match": {
-              "location": "StepDefinition.test1(DataTable)"
+              "location": "testcscu4.StepDefinition.test1(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -38,13 +39,12 @@
           },
           {
             "result": {
-              "duration": 131100,
               "status": "passed"
             },
             "line": 8,
             "name": "Test \\\u003c /tmp",
             "match": {
-              "location": "StepDefinition.test2_tmp(DataTable)"
+              "location": "testcscu4.StepDefinition.test2_tmp(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -64,13 +64,12 @@
           },
           {
             "result": {
-              "duration": 522300,
               "status": "passed"
             },
             "line": 11,
             "name": "Test \\\u003e /tmp",
             "match": {
-              "location": "StepDefinition.test3(DataTable)"
+              "location": "testcscu4.StepDefinition.test3(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -90,13 +89,12 @@
           },
           {
             "result": {
-              "duration": 191000,
               "status": "passed"
             },
             "line": 14,
             "name": "Test \u0027test\u0027",
             "match": {
-              "location": "StepDefinition.test4(DataTable)"
+              "location": "testcscu4.StepDefinition.test4(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -116,13 +114,12 @@
           },
           {
             "result": {
-              "duration": 111600,
               "status": "passed"
             },
             "line": 17,
             "name": "Test $test",
             "match": {
-              "location": "StepDefinition.test5_$test(DataTable)"
+              "location": "testcscu4.StepDefinition.test5_$test(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -142,13 +139,12 @@
           },
           {
             "result": {
-              "duration": 88400,
               "status": "passed"
             },
             "line": 20,
             "name": "Test \\\\",
             "match": {
-              "location": "StepDefinition.test6(DataTable)"
+              "location": "testcscu4.StepDefinition.test6(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -168,13 +164,13 @@
           },
           {
             "result": {
-              "duration": 128800,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 23,
             "name": "Test /",
             "match": {
-              "location": "StepDefinition.test7(DataTable)"
+              "location": "testcscu4.StepDefinition.test7(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -194,13 +190,12 @@
           },
           {
             "result": {
-              "duration": 277700,
               "status": "passed"
             },
             "line": 26,
             "name": "Test |",
             "match": {
-              "location": "StepDefinition.test8(DataTable)"
+              "location": "testcscu4.StepDefinition.test8(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
@@ -225,7 +220,7 @@
     "description": "",
     "id": "kkl-test-datatbls",
     "keyword": "Feature",
-    "uri": "src/test/java/testcscu4/136_KKL_test_datatbls.feature",
+    "uri": "file:src/test/java/testcscu4/136_KKL_test_datatbls.feature",
     "tags": []
   }
 ]
